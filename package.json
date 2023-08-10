@@ -9,9 +9,8 @@
   },
   "scripts": {
     "start": "node index.js",
-    "server": "nodemon index.js",
-    "client": "npm start --prefix ../client",
-    "dev": "concurrently \"npm  start\" \"npm run client\""
+    "server": "nodemon index.js"
+   
   },
   "keywords": [],
   "author": "",
